@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * _isalpha - check the code for Holberton School students.
@@ -21,4 +21,3 @@ int _isalpha(int c)
 	}
 	return (0);
 }
-

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
 * _strstr - function locate
@@ -30,4 +30,3 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (0);
 }
-

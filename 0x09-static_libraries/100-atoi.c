@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * _atoi - int
  * @s: pointer
@@ -27,4 +27,3 @@ int _atoi(char *s)
 	res = sig * res;
 	return (res);
 }
-

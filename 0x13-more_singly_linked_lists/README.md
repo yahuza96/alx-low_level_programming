@@ -1,1 +1,1 @@
-0x13-more_singly_linked_lists
+The functions contained in this folder are used when performing operations on singly linked lists.

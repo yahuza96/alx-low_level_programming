@@ -1,22 +1,18 @@
 #include "lists.h"
-
 /**
- * listint_len - Calculate the number of elements.
- * @h: Pointer to a list.
- * Return: Integer.
- **/
-
+ * listint_len - length of lists
+ * @h: head pointer
+ * Return: return a pointer
+ */
 size_t listint_len(const listint_t *h)
 {
-	const listint_t *tp;
-	unsigned int cnr = 0;
+	size_t count = 0;
+	const listint_t *current = h;
 
-	tp = h;
-	while (tp)
+	while (current)
 	{
-		cnr++;
-		tp = tp->next;
+		count++;
+		current = current->next;
 	}
-	return (cnr);
+	return (count);
 }
-
